@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>CodeQuest Explorer - Professional Coding Practice Platform</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-brand">
+                <i class="fas fa-rocket"></i>
+                CodeQuest Explorer
+            </div>
+            <div class="nav-stats">
+                <div class="stat-item">
+                    <i class="fas fa-code"></i>
+                    <span id="totalQuestions">0</span> Problems
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-filter"></i>
+                    <span id="filteredCount">0</span> Filtered
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Master Coding Challenges :)</h1>
+        <p>Discover, filter, and solve coding problems from Codeforces with our intelligent problem finder</p>
+    </div>
+
+    <div class="filters-wrapper">
+        <div class="filters-header">
+            <h3><i class="fas fa-sliders-h"></i> Filter & Customize</h3>
+        </div>
+
+        <div class="filters">
+            <div class="select-wrapper">
+                <select id="difficulty">
+                    <option value="">Select Difficulty Level</option>
+                    <option value="basic">🟢 Basic (800-900)</option>
+                    <option value="intermediate">🟡 Intermediate (1000-1200)</option>
+                    <option value="advanced">🟠 Advanced (1300-1600)</option>
+                    <option value="expert">🔴 Expert (1700-2000)</option>
+                    <option value="pro">⚫ Pro (2100+)</option>
+                </select>
+            </div>
+
+            <div class="select-wrapper">
+                <select id="sortBy">
+                    <option value="rating">Sort by Rating</option>
+                    <option value="name">Sort by Name</option>
+                    <option value="contestId">Sort by Contest</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="tags-header">
+            <h4><i class="fas fa-tags"></i> Problem Categories</h4>
+            <button class="clear-tags" id="clearTags">Clear All</button>
+        </div>
+
+        <div class="tags-section" id="tagsContainer"></div>
+    </div>
+
+    <div class="controls">
+        <div class="search-wrapper">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search problems by name...">
+        </div>
+
+        <div class="view-toggle">
+            <button class="view-btn active" data-view="grid"><i class="fas fa-th"></i></button>
+            <button class="view-btn" data-view="list"><i class="fas fa-list"></i></button>
+        </div>
+    </div>
+
+    <div id="questions">
+        <div class="questions-header" style="display: none;">
+            <div class="questions-count" id="questionsCount"></div>
+        </div>
+        <div class="questions-grid" id="questionsContainer"></div>
+    </div>
+
+    <button class="load-more" id="loadMore" style="display: none;">
+        Load More Problems
+    </button>
+
+    <div class="keyboard-hint">
+        <div><span class="kbd">Ctrl+K</span> or <span class="kbd">/</span> Search</div>
+        <div><span class="kbd">Esc</span> Clear • <span class="kbd">1-5</span> Difficulty</div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="https://github.com/harshsinha003" target="_blank" rel="noopener noreferrer" class="github-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <p>Copyright @2025 Harshvardhan Sinha. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
