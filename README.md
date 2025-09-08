@@ -57,5 +57,17 @@ Contributions are welcome!
 
 ---
 
+## 🚀 Deployment
+
+This project can be easily deployed on Vercel:
+
+1. Push your code to a GitHub repository
+2. Import the project to Vercel
+3. Configure the environment variables (if needed)
+4. Deploy 🚀
+
+---
+
+## 👨‍💻 Built with ❤️ by [Harsh](https://github.com/harshsinha003)
 
 
