@@ -23,11 +23,13 @@ It allows users to **search, filter, and practice** problems easily in an intera
 ---
 
 ## 📂 Project Structure
+```plaintext
 CodeQuest/
-│── index.html # Main webpage
-│── style.css # Styling
-│── script.js # API fetching & logic
-│── README.md # Project documentation
+│── index.html        # Main webpage
+│── style.css         # Styling
+│── script.js         # API fetching & logic
+│── README.md         # Project documentation
+```
 
 ---
 
