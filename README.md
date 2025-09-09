@@ -44,6 +44,7 @@ cd CodeQuest
 ## 📸 Screenshots
 <img width="1816" height="838" alt="image" src="https://github.com/user-attachments/assets/bca1aaab-b5f8-4f1c-acba-44d665d320ac" />
 
+
 <img width="1714" height="909" alt="image" src="https://github.com/user-attachments/assets/319eb5f4-40f9-42c1-a759-65e21796e648" />
 
 ---
