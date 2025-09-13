@@ -7,6 +7,11 @@ It allows users to **search, filter, and practice** problems easily in an intera
 
 ---
 
+## 🌐 Live Demo
+[Click here to try it out](https://harshsinha003.github.io/CodeQuest/)
+
+---
+
 ## ✨ Features
 - 🔍 **Search by keyword** – Quickly find problems by title.  
 - 🎯 **Filter by tags** – Focus on topics like `dp`, `greedy`, `math`, and more.  
