@@ -1,4 +1,4 @@
-# 🚀 CodeQuest.!
+# 🚀 CodeQuest!
 
 ## Overview
 
